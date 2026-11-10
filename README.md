@@ -1,4 +1,4 @@
-# Bonnies Tabata 💗
+# Tabata 💗
 
 Personlig intervall-/Tabata-timer som progressiv webbapp (PWA) för iPhone och iPad.
 Ren HTML/CSS/JS utan byggsteg – allt i repot serveras som det är.

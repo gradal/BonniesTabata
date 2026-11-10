@@ -4,7 +4,7 @@ import * as Store from './store.js';
 
 const $app = document.getElementById('app');
 const $modal = document.getElementById('modal-root');
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 
 let settings = Store.getSettings();
 applyTheme();
@@ -124,7 +124,7 @@ function viewHome() {
     <div class="home">
       <div class="brand">
         <div class="logo">${ICON.heart}</div>
-        <h1>Bonnies<br><span>Tabata</span></h1>
+        <h1><span>Tabata</span></h1>
       </div>
       <nav class="home-actions">
         <a class="btn btn-primary btn-xl" href="#/quick">Starta träningspass</a>
@@ -599,7 +599,7 @@ function viewSettings() {
         </label>
         <button class="row link danger" data-act="reset-all">Rensa all data</button>
       </div>
-      <p class="version">Bonnies Tabata v${VERSION}</p>
+      <p class="version">Tabata v${VERSION}</p>
     </div>`);
 
   const save = () => { Store.saveSettings(settings); applyTheme(); Sound.setVolume(settings.volume); Sound.setAudioSessionMode(settings.audioMode); };

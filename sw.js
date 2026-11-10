@@ -1,5 +1,5 @@
 // Offline-cache. Höj VERSION vid varje release så att nya filer hämtas.
-const VERSION = 'bt-v0.1.0';
+const VERSION = 'bt-v0.1.1';
 const ASSETS = [
   './',
   'index.html',
